@@ -2,9 +2,70 @@
 <html dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta content="#000" name="color-scheme">
     <meta content="width=device-width" name="viewport">
-    <title>Taufik Nurrohman&rsquo;s Open Source Projects</title>
-    <link href="/favicon.ico" rel="icon">
+    <meta content="Hello, my name is Taufik Nurrohman. I make things for the internet." name="description">
+    <title>Taufik Nurrohman&rsquo;s Open-Source Projects</title>
+    <link href="favicon.ico" rel="icon">
+    <style>
+    :root {
+      background: #fff;
+      color: #000;
+    }
+    a {
+      color: #00f;
+      text-decoration: none;
+    }
+    a:focus {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #009;
+    }
+    a, code {
+      word-wrap: break-word;
+    }
+    footer, header, main {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    footer hr, header hr {
+      display: none;
+    }
+    footer {
+      border-top: 1px dashed;
+    }
+    header {
+      border-bottom: 1px dashed;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    pre code {
+      display: block;
+      background: #eee;
+      padding: 1em;
+    }
+    table {
+      width: 100%;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        background: #000;
+        color: #fff;
+      }
+      a {
+        color: #aaf;
+      }
+      a:visited {
+        color: #77c;
+      }
+      pre code {
+        background: #111;
+      }
+    }
+    </style>
   </head>
   <body>
     <header>
@@ -14,29 +75,43 @@
     </header>
     <main>
       <article>
-        <h3><a href="/color-picker">Color Picker</a></h3>
-        <p>A simple pure JavaScript color picker application with touch event support, for modern browsers.</p>
+       <h3><a href="color-picker">Color Picker</a></h3>
+       <p>A simple JavaScript application that aims to provide custom color picker feature to the web with the most basic appearance and usability.</p>
       </article>
       <article>
-        <h3><a href="/date-picker">Date Picker</a></h3>
-        <p>A simple pure JavaScript date picker application, for modern browsers.</p>
+        <h3><a href="date-picker">Date Picker</a></h3>
+        <p>A simple JavaScript application that aims to provide better experience for users in entering date.</p>
       </article>
       <article>
-        <h3><a href="/tag-picker">Tag Picker</a></h3>
-        <p>A simple pure JavaScript tag picker application.</p>
+        <h3><a href="tag-picker">Tag Picker</a></h3>
+        <p>A simple JavaScript application that aims to provide better experience for users in adding and removing comma-separated list of words.</p>
       </article>
       <article>
-        <h3><a href="/text-editor">Text Editor</a></h3>
-        <p>A text selection range API written in pure JavaScript, for modern browsers.</p>
+        <h3><a href="text-editor">Text Editor</a></h3>
+        <p>A simple JavaScript application that aims to provide accessibility improvements to the native HTML <code>&lt;textarea&gt;</code> elements so that users can control and manipulate their data in the text editor as they wish.</p>
       </article>
       <article>
-        <h3><a href="/rich-text-editor">Rich Text Editor</a></h3>
-        <p>A simple rich text editor that accepts limited set of inline HTML only.</p>
+        <h3><a href="rich-text-editor">Rich Text Editor</a></h3>
+        <p>A rich text editor that is designed to accept limited set of inline HTML tags only.</p>
+      </article>
+      <article>
+        <h3>Other JavaScript Projects</h3>
+        <ul>
+          <li><a href="query-string-parser">Query String Parser</a> can convert URL&rsquo;s query string into JavaScript object and vice-versa.</li>
+          <li><a href="bricks">Bricks</a> is a tiny grid layout to create Pinterest-like layout.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Other Projects</h3>
+        <ul>
+          <li><a href="https://mecha-cms.com">Mecha CMS</a> is a flat-file content management system for minimalists. <sup>PHP</sup></li>
+          <li><a href="https://github.com/taufik-nurrohman/parsedown-extra-plugin">Parsedown Extra Plugin</a> is an extension for Parsedown Extra that adds configuration feature to the Parsedown Extra extension. <sup>PHP</sup></li>
+        </ul>
       </article>
     </main>
     <footer>
       <hr>
-      <p>&copy; 2020 <a href="/">Taufik Nurrohman</a></p>
+      <p>&copy; 2020 <a href="">Taufik Nurrohman</a></p>
     </footer>
   </body>
 </html>

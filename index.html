@@ -34,14 +34,11 @@
       max-width: 700px;
       margin: 0 auto;
     }
-    footer hr, header hr {
-      display: none;
-    }
-    footer {
+    hr {
+      border: 0;
+      color: inherit;
       border-top: 1px dashed;
-    }
-    header {
-      border-bottom: 1px dashed;
+      height: 0;
     }
     pre {
       white-space: pre-wrap;
@@ -54,6 +51,10 @@
     }
     table {
       width: 100%;
+    }
+    td, th {
+      text-align: left;
+      vertical-align: top;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -104,8 +105,10 @@
       <article>
         <h3>JavaScript</h3>
         <ul>
+          <li><a href="https://minify.js.org">Minify Tools</a> is a site contains a collection of online tools for text-based file minification, especially for files related to the web.</li>
+          <li><a href="https://tidy.js.org">Tidy Tools</a> is a site contains a collection of online tools for text-based file formatter, especially for files related to the web.</li>
           <li><a href="bricks">Bricks</a> is a tiny grid layout script to make Pinterest-like layout.</li>
-          <li><a href="generic-syntax-highlighter">Generic Syntax Highlighter</a> is a JavaScript and PHP syntax highlighter that highlight common tokens.</li>
+          <li><a href="generic-syntax-highlighter">Generic Syntax Highlighter</a> is a tiny JavaScript and PHP syntax highlighter that highlight common tokens.</li>
           <li><a href="query-string-parser">Query String Parser</a> can convert URL&rsquo;s query string into JavaScript object and vice-versa.</li>
           <li><a href="sticky-attribution">Sticky Attribution</a> is a JavaScript selection range API implementation that appends source link markup to the copied text.</li>
         </ul>
@@ -113,7 +116,7 @@
       <article>
         <h3>PHP</h3>
         <ul>
-          <li><a href="generic-syntax-highlighter">Generic Syntax Highlighter</a> is a JavaScript and PHP syntax highlighter that highlight common tokens.</li>
+          <li><a href="generic-syntax-highlighter">Generic Syntax Highlighter</a> is a tiny JavaScript and PHP syntax highlighter that highlight common tokens.</li>
           <li><a href="https://mecha-cms.com" target="_blank">Mecha CMS</a> is a flat-file content management system for minimalists.</li>
           <li><a href="https://github.com/taufik-nurrohman/parsedown-extra-plugin" target="_blank">Parsedown Extra Plugin</a> is an extension for Parsedown Extra that adds configuration feature to the Parsedown Extra extension.</li>
         </ul>
